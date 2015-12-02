@@ -469,7 +469,7 @@
               client_id: this.clientId,
               redirect_uri: this.redirectUri,
               scope: this.scope || '',
-              response_type: 'token'
+              response_type: 'code'
             };
 
             var authCompleted = false;
